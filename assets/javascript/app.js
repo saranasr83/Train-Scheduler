@@ -40,6 +40,7 @@ $(document).ready(function () {
         var trainNameData = childSnapshot.val().trainName
         //console.log(trainNameData);
         var destinationData = childSnapshot.val().destination
+        console.log(destinationData);
         var firstTrainTimeData = childSnapshot.val().firstTrainTime
         var frequencyData = childSnapshot.val().frequency
         //console.log(firstTrainTimeData);
@@ -49,7 +50,8 @@ $(document).ready(function () {
         //use the array to make an actual moment() and store in traintime
         var trainTime = moment().hours(timeArray[0]).minutes(timeArray[1]).seconds("00")
         //console.log(trainTime)
-        //max moment is equal to either the current time of the day or the first train time. whichever is further out
+        //max moment is equal to either the current time of the day or the first train time. 
+        //whichever is further out
         var maxMoment = moment.max(moment(),trainTime)
         if (maxMoment === trainTime){
             var trainArrival = trainTime.format("hh:mm A")
