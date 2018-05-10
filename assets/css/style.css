@@ -1,0 +1,28 @@
+body{
+    background: url(../images/train.jpg) fixed no-repeat center;
+    background-size: cover;
+    
+}
+.container{
+    opacity: 0.7;
+}
+.jumbotron-fluid {
+    background-color: rgb(231, 205, 214)
+}
+
+.display-4 {
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+.lead {
+    text-align: center;
+}
+.card-header {
+    background-color: rgb(247, 165, 208);
+}
+.btn-primary {
+    color: #fff;
+    background-color:deeppink;
+    border-color: deeppink;
+}
