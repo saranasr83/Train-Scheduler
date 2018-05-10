@@ -1,15 +1,13 @@
 body{
     background: url(../images/train.jpg) fixed no-repeat center;
-    background-size: cover;
-    
+    background-size: cover;   
 }
 .container{
     opacity: 0.7;
 }
 .jumbotron-fluid {
-    background-color: rgb(231, 205, 214)
+    background-color: rgb(233, 197, 209)
 }
-
 .display-4 {
     text-align: center;
     font-weight: bolder;
