@@ -42,10 +42,11 @@ $(document).ready(function () {
         var trainNameData = childSnapshot.val().trainName
         //console.log(trainNameData);
         var destinationData = childSnapshot.val().destination
-        console.log(destinationData);
+        //console.log(destinationData);
         var firstTrainTimeData = childSnapshot.val().firstTrainTime
-        var frequencyData = childSnapshot.val().frequency
         //console.log(firstTrainTimeData);
+        var frequencyData = childSnapshot.val().frequency
+        //console.log(frequencyData);
         //take the first train time and split it to make it an array(hour and minute)
         var timeArray = firstTrainTimeData.split(":")
         //console.log(timeArray);
